@@ -1,7 +1,7 @@
 import unittest
 from HTMLTestRunner import HTMLTestRunner
 from selenium import webdriver
-from create__company__project2 import CreateCompanyProject
+from create__company__project import CreateCompanyProject
 from approval_company_project import ApprovalCompanyProject
 from login__zhixin import LoginZhiXin
 from login__zhiyou import LoginZhiYou
