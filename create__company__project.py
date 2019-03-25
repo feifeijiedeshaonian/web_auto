@@ -32,10 +32,11 @@ class CreateCompanyProject():
         # 点击确定
         base.click([By.XPATH, '/html/body/div[2]/div/div[3]/span/button[2]/span'])
         # 选择日期
+        # base.click([By.XPATH, ' //*[@id="el_main"]/div/div[1]/div[1]/form/div[3]/div/div/input[1]'])
         sleep(1)
-        base.click([By.XPATH, ' //*[@id="el_main"]/div/div[1]/div[1]/form/div[3]/div/div/input[1]'])
         base.sendKeys([By.XPATH, ' //*[@id="el_main"]/div/div[1]/div[1]/form/div[3]/div/div/input[1]'], "2019-12-31")
-        base.click([By.XPATH, ' //*[@id="el_main"]/div/div[1]/div[1]/form/div[3]/div/div/input[2]'])
+        # base.click([By.XPATH, ' //*[@id="el_main"]/div/div[1]/div[1]/form/div[3]/div/div/input[2]'])
+        sleep(1)
         base.sendKeys([By.XPATH, ' //*[@id="el_main"]/div/div[1]/div[1]/form/div[3]/div/div/input[2]'], "2019-12-31")
         # 点击下一步
         base.click([By.XPATH, '//*[@id="el_main"]/div/div[2]/button'])
