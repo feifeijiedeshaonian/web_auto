@@ -41,7 +41,7 @@ def send_email(file_new):
 
 
 if __name__ == "__main__":   
-    test_dir = "C:\\Users\\LENOVO\\Desktop\\python\\美腾\\zhiyou_guanli\\创建正式项目与子项目"
+    test_dir = "E:\\python\\zk1"
     test_report = "E:\\html"
     discover = unittest.defaultTestLoader.discover(test_dir, 
                                                    pattern='test*.py')
